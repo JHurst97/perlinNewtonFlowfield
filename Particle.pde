@@ -5,7 +5,7 @@ class Particle {
   Particle() {
     loc = new PVector(random(width), random(height));
     vel = new PVector(5, -10);
-    acc = new PVector(0, 0);
+    acc = new PVector(0, 0.1);
     maxSpeed = 5;
     mass = 2;
   }
